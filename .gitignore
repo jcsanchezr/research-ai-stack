@@ -1,0 +1,28 @@
+# Secrets
+**/secrets/*
+!**/secrets/README.md
+.env
+.env.*
+*.key
+*.pem
+
+# DSH runtime state
+.credentials.yaml
+settings.yaml
+runtime/
+workspaces/*
+!workspaces/public/
+workspaces/public/*
+!workspaces/public/.gitkeep
+private/
+
+# Backups / local artifacts
+*.bak
+*.bak-*
+*~
+*.swp
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
