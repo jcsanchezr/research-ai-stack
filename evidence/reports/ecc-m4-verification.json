@@ -1,0 +1,33 @@
+{
+  "milestone": "REC-M1",
+  "source_milestone": "ECC-M4",
+  "status": "PASS",
+  "checks": {
+    "required_fields": true,
+    "ecc_rules": true,
+    "ecc_workflows": true,
+    "milestone": true,
+    "token": true,
+    "transformation": true,
+    "input_structure": true,
+    "input_authorized_path": true,
+    "output_structure": true,
+    "output_authorized_path": true,
+    "workspace_is_directory": true,
+    "input_not_symlink": true,
+    "output_not_symlink": true,
+    "input_exists": true,
+    "output_exists": true,
+    "input_sha256": true,
+    "output_sha256": true,
+    "input_preserved": true,
+    "output_correct": true,
+    "verification_structure": true,
+    "verification_method": true,
+    "expected_numeric": true,
+    "observed_numeric": true,
+    "observed_correct": true,
+    "expected_matches_observed": true,
+    "agent_status": true
+  }
+}

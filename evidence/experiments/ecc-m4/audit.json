@@ -1,0 +1,28 @@
+{
+  "milestone": "ECC-M4",
+  "token": "ECC_M4_PROVENANCE_141026",
+  "input": {
+    "path": "/workspace/ecc-m4/input.txt",
+    "sha256": "5d4f21fe14cc96a1c1eda5e674fe897b47d461c4523b1e51eb97d78329fb0636"
+  },
+  "output": {
+    "path": "/workspace/ecc-m4/output.txt",
+    "sha256": "e6071850fbf12b172d8d5341f651d26e5385aa332fcb40713d88a5547c146380"
+  },
+  "transformation": "append_computed_sum",
+  "ecc_rules": [
+    "/ecc/rules/core.md",
+    "/ecc/rules/evidence.md",
+    "/ecc/rules/provenance.md"
+  ],
+  "ecc_workflows": [
+    "/ecc/workflows/verify-before-done.md",
+    "/ecc/workflows/provenance-audit.md"
+  ],
+  "verification": {
+    "method": "recompute_sum_from_input_and_compare_output",
+    "expected": 31,
+    "observed": 31,
+    "status": "PASS"
+  }
+}

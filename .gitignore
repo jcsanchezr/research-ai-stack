@@ -26,3 +26,10 @@ private/
 .DS_Store
 .idea/
 .vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Temporary verifier snapshots
+*.pre-hardening

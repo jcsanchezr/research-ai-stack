@@ -1,0 +1,4 @@
+alpha=7
+beta=11
+gamma=13
+sum=31
